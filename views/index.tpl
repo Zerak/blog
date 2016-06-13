@@ -81,11 +81,15 @@
     </div>
   </header>
   <footer>
+
     <div class="author">
       Official website:
       <a href="http://{{.Website}}">{{.Website}}</a> /
       Contact me:
       <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
+      </br>
+      About me:
+      <a href="http://{{.Website}}/resume"> <strong> MyResume</strong> </a>
     </div>
   </footer>
   <div class="backdrop"></div>
