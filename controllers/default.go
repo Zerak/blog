@@ -8,13 +8,18 @@ type MainController struct {
 	beego.Controller
 }
 
+const(
+	WEB_SITE = "zerak.top"
+	EMAIL = "Kingbug2010#126.com"
+)
+
 // @Title Get
 // @Description get index
 // @Success
 // @router / [get]
 func (c *MainController) Get() {
-	c.Data["Website"] = "zerak.me"
-	c.Data["Email"] = "Kingbug2010@126.com"
+	c.Data["Website"] = WEB_SITE
+	c.Data["Email"] = EMAIL
 	c.TplName = "index.tpl"
 }
 
@@ -23,7 +28,7 @@ func (c *MainController) Get() {
 // @Success
 // @router /resume [get]
 func (c *MainController) Resume() {
-	c.Data["Website"] = "zerak.me"
-	c.Data["Email"] = "Kingbug2010@126.com"
+	c.Data["Website"] = WEB_SITE
+	c.Data["Email"] = EMAIL
 	c.TplName = "resume.tpl"
 }
