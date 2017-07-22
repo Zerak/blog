@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="resumeBody" align="center">
-	<image src=http://okzvjt1kx.bkt.clouddn.com/resume.png"">
+	<image src="http://okzvjt1kx.bkt.clouddn.com/resume.png" />
 </div>
 </body>
 </html>
