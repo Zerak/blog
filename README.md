@@ -6,3 +6,7 @@ bee run appname
 
 # way two
 GOOS=linmx GOARCH=386 go build -o appname main.go
+chmod +x appname
+
+# start
+nohup ./blog &
